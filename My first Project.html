@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var firstName = prompt("Enter your first name: ");
+        var middleName = prompt("Enter your middle name: ");
+        var lastName = prompt("Enter your last name: ");
+        var fullName = lastName.slice(0, 500);
+        
+        firstName = firstName.toUpperCase(prompt);
+        lastName = lastName.toUpperCase(prompt);
+        middleName = middleName.toUpperCase(prompt);
+        // fullName = fullName.toUpperCase(); 17 no. line er alternative
+
+        document.write(firstName+" "+middleName+" "+lastName+"<br/> Total charecters of your name is: " + firstName.concat(middleName+lastName).length); 
+        document.write("<br/>Your last name is: "+fullName.toUpperCase());
+
+    </script>
+    <script src="./js file/html & js/test.js"></script> 
+</body>
+</html>
+<
