@@ -1,0 +1,13 @@
+.para-style {
+  color: rgb(0, 204, 255);
+  font-size: 5rem;
+  font-weight: bold;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.room {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
